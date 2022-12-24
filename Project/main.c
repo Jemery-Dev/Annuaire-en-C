@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define nom_fic "../../annuaire.txt"
+#define nom_fic "../annuaire.txt"
 #include "Fonctions.H"
 int main()
 {

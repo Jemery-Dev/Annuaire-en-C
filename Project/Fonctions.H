@@ -16,7 +16,7 @@ typedef struct Utilisateur{
 struct Utilisateur BD[taille];
 
 // Fonctions utiles pour gerer la structuration
-void Remplissage(FILE*file);
+void Remplissage_BD(FILE*file);
 void affichage_BD(int Max);
 void Recherche_BD();
 int Taille_BD();

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1671886941 source:c:\users\jerem\desktop\projet-de-sae-de-c\project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Fonctions.H"
+
+1671887046 c:\users\jerem\desktop\projet-de-sae-de-c\project\fonctions.h
+
+1671886941 source:c:\users\jerem\desktop\projet-de-sae-de-c\project\structuration.c
+	<stdio.h>
+	<stdlib.h>
+	"Fonctions.H"
+
