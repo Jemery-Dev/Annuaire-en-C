@@ -4,7 +4,6 @@
 #define taillec 50
 // Structure
 typedef struct Utilisateur{
-    int id;
     char nom[taillec];
     char prenom[taillec];
     char code_postal[taillec];
@@ -15,6 +14,16 @@ typedef struct Utilisateur{
 }Utilisateur;
 struct Utilisateur BD[taille];
 
+typedef struct Index{
+    int index_nom;
+    int index_prenom;
+    int index_code_postal;
+    int index_ville;
+    int index_telephone;
+    int index_mel;
+    int index_profession;
+}Index;
+struct Index IBD[taille];
 // Fonctions utiles pour gerer la structuration
 void Remplissage(FILE*file);
 void affichage_BD(int Max);

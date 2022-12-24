@@ -10,15 +10,17 @@ void Remplissage_BD(FILE*file){
     for(i=0;i<taille;i++){
         switch(v){
         case 0:
+            IBD[i].index_nom=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
-                     if (c!=',') BD[i].nom[j] = c;
+                     if (c!=',') {BD[i].nom[j] = c;}
                     else {j = j+taillec;
                           v=v+1;
                           i=i-1;}
             }
             break;
         case 1:
+            IBD[i].index_prenom=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c!=',') BD[i].prenom[j] = c;
@@ -28,6 +30,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         case 2:
+            IBD[i].index_code_postal=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c!=',') BD[i].code_postal[j] = c;
@@ -37,6 +40,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         case 3:
+            IBD[i].index_ville=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c!=',') BD[i].ville[j] = c;
@@ -46,6 +50,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         case 4:
+            IBD[i].index_telephone=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c!=',') BD[i].telephone[j] = c;
@@ -55,6 +60,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         case 5:
+            IBD[i].index_mel=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c!=',') BD[i].mel[j] = c;
@@ -64,6 +70,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         case 6:
+            IBD[i].index_profession=ftell(file);
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c == EOF) v= 7;
@@ -89,12 +96,12 @@ void affichage_BD(int Max){
     printf("\n");
     int i;
     for(i=0;i<Max;i++){
-            printf("nom %d : %s \n",i+1,BD[i].nom);
-            printf("prenom %d : %s \n",i+1,BD[i].prenom);
-            printf("code postal %d : %s \n",i+1,BD[i].code_postal);
-            printf("ville %d : %s \n",i+1,BD[i].ville);
-            printf("telephone %d : %s \n",i+1,BD[i].telephone);
-            printf("mel %d : %s \n",i+1,BD[i].mel);
-            printf("profession %d : %s \n",i+1,BD[i].profession);
+            printf("nom %d : %s a la %deme positions du curseur\n",i+1,BD[i].nom,IBD[i].index_nom);
+            printf("prenom %d : %s a la %deme positions du curseur\n",i+1,BD[i].prenom,IBD[i].index_prenom);
+            printf("code postal %d : %s a la %deme positions du curseur\n",i+1,BD[i].code_postal,IBD[i].index_code_postal);
+            printf("ville %d : %s a la %deme positions du curseur\n",i+1,BD[i].ville,IBD[i].index_ville);
+            printf("telephone %d : %s a la %deme positions du curseur\n",i+1,BD[i].telephone,IBD[i].index_telephone);
+            printf("mel %d : %s a la %deme positions du curseur\n",i+1,BD[i].mel,IBD[i].index_mel);
+            printf("profession %d : %s a la %deme positions du curseur\n",i+1,BD[i].profession,IBD[i].index_profession);
     }
 }
