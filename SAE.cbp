@@ -31,13 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Ajout_Client.c">
+		<Unit filename="Ajouter_client.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Fonctions.H" />
-		<Unit filename="Modifier_Mel_Client.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="Structuration.c">
 			<Option compilerVar="CC" />
 		</Unit>

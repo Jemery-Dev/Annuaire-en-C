@@ -12,6 +12,18 @@ void ajouter_client(FILE*file){
     scanf("%d",&nbr_client);
     for(int i=0;nbr_client>i;i++)
     {
+        char mel[taillec];
+        printf("Entrez le mel du client :\n");
+        scanf("%s", mel);
+        // On regarde si il y a déjà le même mel pour deux clients
+        repet=0;
+        for(int i=0;i<taille;i++){
+            if (strcmp(mel,BD[i].mel)==0)
+            {
+                repet=repet+1;
+            }
+        }
+        if (repet==0){
         char nom[taillec];
         printf("Entrez le nom du client :\n");
         scanf("%s", nom);
@@ -27,18 +39,6 @@ void ajouter_client(FILE*file){
         char telephone[taillec];
         printf("Entrez le telephone du client :\n");
         scanf("%s", telephone);
-        char mel[taillec];
-        printf("Entrez le mel du client :\n");
-        scanf("%s", mel);
-        // On regarde si il y a déjà le même mel pour deux clients
-        for(i=0;i<taille;i++){
-            repet=0;
-            if (strcmp(mel,BD[i].mel)==0)
-            {
-                repet=repet+1;
-            }
-        }
-        if (repet==0){
         char profession[taillec];
         printf("Entrez la profession du client :\n");
         scanf("%s", profession);
