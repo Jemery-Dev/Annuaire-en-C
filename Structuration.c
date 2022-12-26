@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #define taille 700
 #define taillec 50
 #include "Fonctions.H"
@@ -105,3 +106,11 @@ void affichage_BD(int Max){
             printf("profession %d : %s a la %deme positions du curseur\n",i+1,BD[i].profession,IBD[i].index_profession);
     }
 }
+int Recherche_BD_Nom(char c1[taillec],char c2[taillec],int Max){
+    int i;
+    for(i=0;i<Max;i++){
+            if (strcmp(c1,BD[i].nom)==0 && strcmp(c2,BD[i].prenom)==0) return i;
+    }
+    return -1;
+}
+

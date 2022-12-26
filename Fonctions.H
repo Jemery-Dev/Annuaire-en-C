@@ -25,9 +25,9 @@ typedef struct Index{
 }Index;
 struct Index IBD[taille];
 // Fonctions utiles pour gerer la structuration
-void Remplissage(FILE*file);
+void Remplissage_BD(FILE*file);
 void affichage_BD(int Max);
-void Recherche_BD();
+int Recherche_BD_Nom(char c1[taillec],char c2[taillec],int Max);
 int Taille_BD();
 #endif // FONCTIONS_H
 
