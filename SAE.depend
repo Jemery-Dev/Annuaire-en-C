@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1671745193 source:c:\users\gheri\desktop\sae c\code\sae\ajout_client.c
+	<stdio.h>
+
+1671905385 source:c:\users\gheri\desktop\sae c\code\sae\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Fonctions.H"
+
+1671905150 c:\users\gheri\desktop\sae c\code\sae\fonctions.h
+
+1671795211 source:c:\users\gheri\desktop\sae c\code\sae\modifier_mel_client.c
+
+1671906071 source:c:\users\gheri\desktop\sae c\code\sae\structuration.c
+	<stdio.h>
+	<stdlib.h>
+	"Fonctions.H"
+
