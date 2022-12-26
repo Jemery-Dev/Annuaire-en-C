@@ -17,3 +17,22 @@
 	<stdlib.h>
 	"Fonctions.H"
 
+1672061150 source:c:\users\remyg\desktop\projet-de-sae-de-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Fonctions.H"
+
+1672061152 c:\users\remyg\desktop\projet-de-sae-de-c\fonctions.h
+
+1672063629 source:c:\users\remyg\desktop\projet-de-sae-de-c\structuration.c
+	<stdio.h>
+	<stdlib.h>
+	"Fonctions.H"
+
+1672063781 source:c:\users\remyg\desktop\projet-de-sae-de-c\ajouter_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+

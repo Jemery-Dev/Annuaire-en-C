@@ -74,9 +74,9 @@ void Remplissage_BD(FILE*file){
             for(j=0;j<taillec;j++){
                     c = fgetc(file);
                     if (c == EOF) v= 7;
-                    if (c!='\n') BD[i].profession[j] = c;
+                    else {if (c!='\n') BD[i].profession[j] = c;
                     else {j = j+taillec;
-                          v=0;}
+                          v=0;}};
             }
             break;
         default:

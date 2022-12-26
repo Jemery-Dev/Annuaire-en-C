@@ -29,5 +29,9 @@ void Remplissage(FILE*file);
 void affichage_BD(int Max);
 void Recherche_BD();
 int Taille_BD();
+
+// Fonctions de la SAE
+
+void ajouter_client(FILE*file);
 #endif // FONCTIONS_H
 
