@@ -34,5 +34,6 @@ int Taille_BD();
 
 void ajouter_client(FILE*file);
 void supprimer_entrees(char c[taille]);
+void modifier_autres_que_mel_client(FILE*file)
 #endif // FONCTIONS_H
 

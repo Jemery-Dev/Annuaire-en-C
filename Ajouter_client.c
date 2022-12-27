@@ -60,7 +60,7 @@ void ajouter_client(FILE*file){
             supprimer_entrees(BD[max+(i+1)].profession);
 
             fseek(file,SEEK_SET,SEEK_END);
-            fprintf(file,"\n %s,%s,%s,%s,%s,%s,%s",BD[max+(i+1)].nom,BD[max+(i+1)].prenom,BD[max+(i+1)].code_postal,BD[max+(i+1)].ville,BD[max+(i+1)].telephone,BD[max+(i+1)].mel,BD[max+(i+1)].profession);
+            fprintf(file,"\n%s,%s,%s,%s,%s,%s,%s",BD[max+(i+1)].nom,BD[max+(i+1)].prenom,BD[max+(i+1)].code_postal,BD[max+(i+1)].ville,BD[max+(i+1)].telephone,BD[max+(i+1)].mel,BD[max+(i+1)].profession);
             printf("Le client a ete ajoute avec succès\n");
         }
         else{
