@@ -33,5 +33,6 @@ int Taille_BD();
 // Fonctions de la SAE
 
 void ajouter_client(FILE*file);
+void supprimer_entrees(char c[taille]);
 #endif // FONCTIONS_H
 

@@ -6,8 +6,8 @@
 int main()
 {
     FILE*annuaire = fopen(nom_fic,"r+");
-    ajouter_client(annuaire);
     Remplissage_BD(annuaire);
+    ajouter_client(annuaire);
     int Max = Taille_BD();
     affichage_BD(Max);
     return 0;
