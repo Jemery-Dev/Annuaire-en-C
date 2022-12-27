@@ -3,6 +3,7 @@
 #define taille 700
 #define taillec 50
 #include "Fonctions.H"
+
 void Remplissage_BD(FILE*file){
     fseek(file,SEEK_SET,SEEK_CUR);
     int i,j,v=0;

@@ -3,6 +3,7 @@
 #include <time.h>
 #define nom_fic "./annuaire.txt"
 #include "Fonctions.H"
+
 int main()
 {
     FILE*annuaire = fopen(nom_fic,"r+");
