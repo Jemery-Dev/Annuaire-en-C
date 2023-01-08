@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Fonctions.H"
-#define nom_fic "annuaire.csv"
+#define nom_fic "annuaire.txt"
 int main()
 {
     int i,j,arr=0;
