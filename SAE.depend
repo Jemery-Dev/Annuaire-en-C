@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1672073082 source:c:\users\gheri\desktop\sae c\code\sae\ajout_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673132925 source:c:\users\gheri\desktop\sae c\code\sae\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673130601 c:\users\gheri\desktop\sae c\code\sae\fonctions.h
+
+1673087344 source:c:\users\gheri\desktop\sae c\code\sae\modifier_mel_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673142278 source:c:\users\gheri\desktop\sae c\code\sae\structuration.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673132219 source:c:\users\gheri\desktop\sae c\code\sae\ajouter_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673096692 source:c:\users\gheri\desktop\sae c\code\sae\supprimer_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673141758 source:c:\users\gheri\desktop\sae c\code\sae\afficher_clients_donnees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673130937 source:c:\users\gheri\desktop\sae c\code\sae\filtrer_combiner_deux_champs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673130681 source:c:\users\gheri\desktop\sae c\code\sae\filtrer_champ.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673088450 source:c:\users\gheri\desktop\sae c\code\sae\modifier_autres_que_mel.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673097473 source:c:\users\gheri\desktop\sae c\code\sae\trier_par_nom_alphabetique.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
