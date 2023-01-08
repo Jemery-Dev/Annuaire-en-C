@@ -24,7 +24,7 @@ void ajouter_client(char nom_fic[taillec], char* nom, char* prenom, char* code_p
     strcpy(BD[max].telephone,telephone);
     strcpy(BD[max].mel,mel);
     strcpy(BD[max].profession,profession);
-    int repet=0,vf;
+    int repet=0;
         for(int j=0;j<max;j++){
             if (strcmp(mel,BD[j].mel)==0)
             {

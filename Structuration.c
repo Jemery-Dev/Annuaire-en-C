@@ -116,7 +116,7 @@ void Sauvegarder(char nom_fic[taillec]){
         fprintf(nv,"%s,%s,%s,%s,%s,%s,%s",BD[max].nom,BD[max].prenom,BD[max].code_postal,BD[max].ville,BD[max].telephone,BD[max].mel,BD[max].profession);
     fclose(nv);
 }
-int lire(char *chaine, int longueur)
+void lire(char *chaine, int longueur)
 {
     char *positionEntree = NULL;
 
@@ -127,11 +127,5 @@ int lire(char *chaine, int longueur)
         {
             *positionEntree = '\0';
         }
-        return 1;
-    }
-    else
-    {
-        return 0;
     }
 }
-

@@ -22,7 +22,7 @@ void afficher_clients_donnees_manquantes(char nom_fic[taillec]){
     fclose(temp);
     fclose(annuaire);
     rename("temp.txt","resultat_afficher_donnees_manquantes.txt");
-    if(vf=0) printf("aucun utilisateur n'a de donnees manquantes");
-    else printf("fichier cree avec les clients auquels ils manquent des données \n");
+    if(vf==0) printf("Aucun utilisateur n'a de donnees manquantes");
+    else printf("Fichier cree avec les clients auxquels ils manquent des données \n");
     fclose(annuaire);
 }

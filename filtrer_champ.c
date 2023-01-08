@@ -49,7 +49,7 @@ void filtrer_un_champ(char nom_fic[taillec],char* nom_champ,char* val_chaine)
     }
     }
     if (vf==1) printf("Fait \n");
-    else printf("Pas de champ trouvé");
+    else printf("Pas de champ trouve");
     fclose(resultat);
     fclose(annuaire);
 

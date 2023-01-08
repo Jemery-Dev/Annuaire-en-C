@@ -23,9 +23,9 @@ void supprimer_client(char nom_fic[taillec],char mel_p[taillec]){
     }
     fclose(annuaire);
 
-    if (vf==0) printf("non trouve\n ");
+    if (vf==0) printf("Le client n'a pas ete trouve\n ");
     else{
-            printf("client bien supprimer \n");
+            printf("Le client est bien supprimer\n");
         }
     fclose(temp);
     fclose(annuaire);
