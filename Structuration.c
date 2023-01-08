@@ -75,7 +75,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         default:
-            max = i;
+            max = i-1;
             i=i+taille;
             break;
             }
@@ -104,19 +104,7 @@ int Recherche_BD_Mel_lpl(char c[taillec],int i){
     if (strcmp(c,BD[i].mel)==0) return 1;
     else return -1;
 }
-void Sauvegarder(char nom_fic[taillec]){
-    remove(nom_fic);
-    FILE*nv = fopen(nom_fic,"wt");
-    int i;
-
-    for(i=0;i<max;i++)
-        {
-            fprintf(nv,"%s,%s,%s,%s,%s,%s,%s\n",BD[i].nom,BD[i].prenom,BD[i].code_postal,BD[i].ville,BD[i].telephone,BD[i].mel,BD[i].profession);
-        }
-        fprintf(nv,"%s,%s,%s,%s,%s,%s,%s",BD[max].nom,BD[max].prenom,BD[max].code_postal,BD[max].ville,BD[max].telephone,BD[max].mel,BD[max].profession);
-    fclose(nv);
-}
-void lire(char *chaine, int longueur)
+int lire(char *chaine, int longueur)
 {
     char *positionEntree = NULL;
 
@@ -127,5 +115,11 @@ void lire(char *chaine, int longueur)
         {
             *positionEntree = '\0';
         }
+        return 1;
+    }
+    else
+    {
+        return 0;
     }
 }
+

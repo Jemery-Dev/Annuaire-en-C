@@ -1,5 +1,6 @@
 #ifndef FONCTIONS_H
 #define FONCTIONS_H
+#define taille 900
 #define taillec 50
 // Structure
 typedef struct Utilisateur{
@@ -11,7 +12,7 @@ typedef struct Utilisateur{
     char mel[taillec];
     char profession[taillec];
 }Utilisateur;
-struct Utilisateur BD[900];
+struct Utilisateur BD[taille];
 
 int max;
 // Fonctions utiles pour gerer la structuration
@@ -20,8 +21,7 @@ void affichage_BD(char nom_fic[taillec]);
 int Recherche_BD_Mel_lpl(char c[taillec],int i);
 void permute(Utilisateur *a,Utilisateur *b);
 void supprimer_entrees(char c[taillec]);
-void lire(char *chaine,int longeur);
-void Sauvegarder(char nom_fic[taillec]);
+int lire(char *chaine,int longeur);
 
 // Fonctions Gheribi Abd-el-rahmen
 void Modifier_mel_client(char nom_fic[taillec],char mel_p[taillec],char nv_mel_p[taillec]);

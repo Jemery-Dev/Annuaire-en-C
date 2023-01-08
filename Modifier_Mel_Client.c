@@ -26,8 +26,8 @@ void Modifier_mel_client(char nom_fic[taillec],char mel_p[taillec],char nv_mel_p
     }
     fclose(temp);
     rename("temp.txt","resultat_modifier_mel.txt");
-    if (vf==0) printf("L'adresse mail n'a pas ete trouve");
-    else printf("L'adresse mail a ete modifie\n");
+    if (vf==0) printf("adresse mel non trouvée");
+    else printf("adresse mel modifiee\n");
     fclose(annuaire);
     }
 
