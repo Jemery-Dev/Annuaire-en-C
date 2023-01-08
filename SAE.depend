@@ -67,63 +67,63 @@
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\ajouter_client.c
+1673207059 source:c:\users\remyg\desktop\projet-de-sae-de-c\ajouter_client.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 c:\users\remyg\desktop\projet-de-sae-de-c\fonctions.h
+1673207059 c:\users\remyg\desktop\projet-de-sae-de-c\fonctions.h
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\filtrer_champ.c
+1673207059 source:c:\users\remyg\desktop\projet-de-sae-de-c\filtrer_champ.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\filtrer_combiner_deux_champs.c
+1673207116 source:c:\users\remyg\desktop\projet-de-sae-de-c\filtrer_combiner_deux_champs.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206390 source:c:\users\remyg\desktop\projet-de-sae-de-c\main.c
+1673208193 source:c:\users\remyg\desktop\projet-de-sae-de-c\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\modifier_autres_que_mel.c
+1673207115 source:c:\users\remyg\desktop\projet-de-sae-de-c\modifier_autres_que_mel.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\modifier_mel_client.c
+1673207059 source:c:\users\remyg\desktop\projet-de-sae-de-c\modifier_mel_client.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\structuration.c
+1673207059 source:c:\users\remyg\desktop\projet-de-sae-de-c\structuration.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\supprimer_client.c
+1673207059 source:c:\users\remyg\desktop\projet-de-sae-de-c\supprimer_client.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\trier_par_nom_alphabetique.c
+1673207116 source:c:\users\remyg\desktop\projet-de-sae-de-c\trier_par_nom_alphabetique.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Fonctions.H"
 
-1673206222 source:c:\users\remyg\desktop\projet-de-sae-de-c\afficher_clients_donnees.c
+1673207059 source:c:\users\remyg\desktop\projet-de-sae-de-c\afficher_clients_donnees.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
