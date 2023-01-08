@@ -75,7 +75,7 @@ void Remplissage_BD(FILE*file){
             }
             break;
         default:
-            max = i-1;
+            max = i;
             i=i+taille;
             break;
             }
