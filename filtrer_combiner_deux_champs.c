@@ -47,7 +47,7 @@ void filtrer_combiner_2_champs(char nom_fic[taillec],char nom_champ1[taillec],ch
     int i;
     char *c1;
     char *c2;
-    for(i=0;i<max;i++){
+    for(i=0;i<=max;i++){
         c1 = chaine_approriee(nom_champ1,i);
         c2 = chaine_approriee(nom_champ2,i);
         if(strstr(c1,val_chaine1)!=NULL && strstr(c2,val_chaine2)!=NULL){

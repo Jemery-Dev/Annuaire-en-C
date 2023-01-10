@@ -27,9 +27,9 @@ void trie_client_par_nom(char nom_fic[taillec]){
     FILE*temp;
     temp=fopen("temp.txt","wt");
 
-    for(i=0;i<max;i++)
+    for(i=0;i<=max;i++)
         {
-        for(j=0;j<max;j++)
+        for(j=0;j<=max;j++)
         {
             switch(strcmp(BD[i].nom,BD[j].nom))
             {
@@ -42,7 +42,7 @@ void trie_client_par_nom(char nom_fic[taillec]){
             }
         }
     }
-    for(int cpt=0;cpt<max;cpt++)
+    for(int cpt=0;cpt<=max;cpt++)
         {
             fprintf(temp,"%s,%s,%s,%s,%s,%s,%s\n",BD[cpt].nom,BD[cpt].prenom,BD[cpt].code_postal,BD[cpt].ville,BD[cpt].telephone,BD[cpt].mel,BD[cpt].profession);
         }

@@ -18,7 +18,7 @@ void filtrer_un_champ(char nom_fic[taillec],char* nom_champ,char* val_chaine)
         printf("Erreur, la chaine de caracteres val_chaine est vide\n");
     }
     else{
-    for(int i=0;i<max;i++){
+    for(int i=0;i<=max;i++){
     int filtrer=0;
     if (strcmp(nom_champ, "nom") == 0 && strstr(BD[i].nom, val_chaine) != NULL){
             filtrer = 1;

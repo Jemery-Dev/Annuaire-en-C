@@ -13,7 +13,7 @@
     temp=fopen("temporaire.txt","wt");
     int i,vf=0;
 
-    for(i=0;i<max;i++){
+    for(i=0;i<=max;i++){
         if(Recherche_BD_Mel_lpl(mel,i)==1){
             if (strcmp(nom_champ, "nom") == 0){
                 strcpy(BD[i].nom,val_chaine);

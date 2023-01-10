@@ -17,7 +17,7 @@ void Modifier_mel_client(char nom_fic[taillec],char mel_p[taillec],char nv_mel_p
     FILE*temp;
     temp=fopen("temp.txt","wt");
     int i,vf=0;
-    for(i=0;i<max;i++){
+    for(i=0;i<=max;i++){
         if(Recherche_BD_Mel_lpl(mel_p,i)==1){
             strcpy(BD[i].mel,nv_mel_p);
             vf=1;

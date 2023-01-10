@@ -12,10 +12,10 @@ void ajouter_client(char nom_fic[taillec], char* nom, char* prenom, char* code_p
     }
     else{
     FILE*annuaire = fopen(nom_fic,"r+");
+    Remplissage_BD(annuaire);
     remove("resultat_ajouter.txt");
     FILE*temp;
     temp=fopen("temporary.txt","wt");
-    Remplissage_BD(annuaire);
     max = max+1;
     strcpy(BD[max].nom,nom);
     strcpy(BD[max].prenom,prenom);

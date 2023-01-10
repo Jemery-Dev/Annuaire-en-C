@@ -67,3 +67,65 @@
 	<string.h>
 	"Fonctions.H"
 
+1673339519 source:c:\users\gheri\desktop\c jeremy gheribi\afficher_clients_donnees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673210258 c:\users\gheri\desktop\c jeremy gheribi\fonctions.h
+
+1673337609 source:c:\users\gheri\desktop\c jeremy gheribi\ajouter_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673339506 source:c:\users\gheri\desktop\c jeremy gheribi\filtrer_champ.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673339501 source:c:\users\gheri\desktop\c jeremy gheribi\filtrer_combiner_deux_champs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673339181 source:c:\users\gheri\desktop\c jeremy gheribi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673339513 source:c:\users\gheri\desktop\c jeremy gheribi\modifier_autres_que_mel.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673210258 source:c:\users\gheri\desktop\c jeremy gheribi\modifier_mel_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673339475 source:c:\users\gheri\desktop\c jeremy gheribi\structuration.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673210258 source:c:\users\gheri\desktop\c jeremy gheribi\supprimer_client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
+1673210258 source:c:\users\gheri\desktop\c jeremy gheribi\trier_par_nom_alphabetique.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fonctions.H"
+
