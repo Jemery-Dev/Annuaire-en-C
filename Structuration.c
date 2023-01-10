@@ -67,6 +67,7 @@ void Remplissage_BD(FILE*file){
             break;
         case 6:
             for(j=0;j<taillec;j++){
+                    max = i;
                     c = fgetc(file);
                     if (c == EOF) v= 7;
                     else {if (c!='\n') BD[i].profession[j] = c;
@@ -75,7 +76,6 @@ void Remplissage_BD(FILE*file){
             }
             break;
         default:
-            max = i-1;
             i=i+taille;
             break;
             }
