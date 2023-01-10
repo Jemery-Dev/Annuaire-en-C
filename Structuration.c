@@ -89,7 +89,7 @@ void affichage_BD(char nom_fic[taillec]){
     printf("\n");
 
     int i;
-    for(i=0;i<max;i++){
+    for(i=0;i<=max;i++){
             printf("nom %d : %s \n",i+1,BD[i].nom);
             printf("prenom %d : %s \n",i+1,BD[i].prenom);
             printf("code postal %d : %s \n",i+1,BD[i].code_postal);
