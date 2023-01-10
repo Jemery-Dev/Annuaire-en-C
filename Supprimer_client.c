@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define taille 700
+#define taille 900
 #define taillec 50
 #include "Fonctions.H"
 
 void supprimer_client(char nom_fic[taillec],char mel_p[taillec]){
     FILE*annuaire = fopen(nom_fic,"r+");
-    remove("resultat_supprimer.txt");
-    fseek(annuaire,0,SEEK_SET);
     Remplissage_BD(annuaire);
+    remove("resultat_supprimer.txt");
     FILE*temp;
     temp=fopen("temp.txt","wt");
 
